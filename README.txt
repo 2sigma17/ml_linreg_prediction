@@ -1,5 +1,5 @@
 Objective:
-Using historical daily prices of btc/usd and defining exploratory variables to create a predication model for btc/usd. 
+Using historical daily prices of btc/usd and defining exploratory variables to create a predication model for btc/usd.
 
 Steps:
 1. Retrieve historical daily btc/usd data using alphavantage
@@ -15,3 +15,11 @@ Steps:
 11. Use matplotlib to plot predicted price vs actual price
 12. Add actual price to predicted price dataframe
 13. Calculate r2 score.
+
+Libraries:
+configparser
+numpy
+pandas
+requests
+matplotlib
+sklearn
